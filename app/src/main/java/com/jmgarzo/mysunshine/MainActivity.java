@@ -27,6 +27,7 @@ public class MainActivity extends ActionBarActivity implements MainActivityFragm
             // (res/layout-sw600dp). If this view is present, then the activity should be
             // in two-pane mode.
             mTwoPane = true;
+            getSupportActionBar().setElevation(0f);
             // In two-pane mode, show the detail view in this activity by
             // adding or replacing the detail fragment using a
             // fragment transaction.
@@ -38,6 +39,10 @@ public class MainActivity extends ActionBarActivity implements MainActivityFragm
         } else {
             mTwoPane = false;
         }
+
+        MainActivityFragment mainActivityFragment =  ((MainActivityFragment)getSupportFragmentManager()
+                .findFragmentById(R.id.fragment_forecast));
+        mainActivityFragment.setUseTodayLayout(!mTwoPane);
 
 
 //        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
