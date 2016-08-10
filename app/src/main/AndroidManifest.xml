@@ -78,11 +78,12 @@
             android:exported="false"
             android:syncable="true" />
 
-        <service
-            android:name=".service.SunshineService"
-            android:exported="false"></service>
+        <!-- Dejo el comentario para practicar con el servicio y las alarmas-->
+        <!--<service-->
+            <!--android:name=".service.SunshineService"-->
+            <!--android:exported="false"></service>-->
 
-        <receiver android:name=".service.SunshineService$AlarmReceiver" android:enabled="true"/>
+        <!--<receiver android:name=".service.SunshineService$AlarmReceiver" android:enabled="true"/>-->
     </application>
 
 </manifest>
