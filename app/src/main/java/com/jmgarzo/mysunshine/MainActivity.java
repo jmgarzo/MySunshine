@@ -5,7 +5,8 @@ import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -15,7 +16,7 @@ import com.google.android.gms.common.GoogleApiAvailability;
 import com.jmgarzo.mysunshine.gcm.RegistrationIntentService;
 import com.jmgarzo.mysunshine.sync.SunshineSyncAdapter;
 
-public class MainActivity extends ActionBarActivity implements MainActivityFragment.Callback {
+public class MainActivity extends AppCompatActivity implements MainActivityFragment.Callback {
 
     private String mLocation;
     private static final String DETAILFRAGMENT_TAG = "DFTAG";
@@ -31,6 +32,10 @@ public class MainActivity extends ActionBarActivity implements MainActivityFragm
         super.onCreate(savedInstanceState);
         mLocation = Utility.getPreferredLocation(this);
         setContentView(R.layout.activity_main);
+        Toolbar toolbar = (Toolbar)findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
+
         if (findViewById(R.id.weather_detail_container) != null) {
             // The detail container view will be present only in the large-screen layouts
             // (res/layout-sw600dp). If this view is present, then the activity should be

@@ -239,19 +239,7 @@ public class MainActivityFragment extends Fragment implements LoaderManager.Load
             // to, do so now.
             mListView.smoothScrollToPosition(mPosition);
         }
-        if (cursor.getCount() == 0) {
-            TextView textView = (TextView) getView().findViewById(R.id.listview_forecast_empty);
-            int message = R.string.empty_forecast_list;
-
-            if (null != textView) {
-                if (!Utility.isNetworkAvailable(getActivity())) {
-                        message = R.string.empty_forecast_list_no_network;
-                }
-            }
-            textView.setText(message);
-
-
-        }
+        updateEmptyView();
     }
 
     @Override
