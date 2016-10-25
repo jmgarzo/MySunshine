@@ -1,6 +1,4 @@
-
-
-# MySunchine
+# MySunshine
 
 ## Synopsis
 Project done during the course [Developing Android Apps](https://www.udacity.com/course/developing-android-apps--ud853)
@@ -71,3 +69,6 @@ Add to the app you built in Stage 1 by building on the detail view for each movi
 Final Project (10-20 hours) 
 
 Build your own Android app incorporating the skills you've learned in this course.
+
+##Contact 
+jmgarzo.developer@gmail.com
