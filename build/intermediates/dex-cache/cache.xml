@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/jmgarzo/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/24.1.1/3af19f153122737b372622fa6c81dd11a1c6b999/support-annotations-24.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="/home/jmgarzo/Android/Udacity/MySunshine/app/build/intermediates/pre-dexed/debug/support-annotations-24.1.1_6d202e58e4178e23ee8b30ce8b0a222e01799bbc.jar" />
+    </item>
+    <item
+        jar="/home/jmgarzo/Android/Udacity/MySunshine/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="eeebabdfd8203f6ab639ccea4ffa1f20e1adee3a">
+        <dex dex="/home/jmgarzo/Android/Udacity/MySunshine/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-22.1.0_b27639f0fc41ccd6e17743a801bee4dd1a990d86.jar" />
+    </item>
+    <item
+        jar="/home/jmgarzo/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.5.2/ecf534dba3a8446ce84cbb797d314763be212a68/glide-3.5.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ecf534dba3a8446ce84cbb797d314763be212a68">
+        <dex dex="/home/jmgarzo/Android/Udacity/MySunshine/app/build/intermediates/pre-dexed/debug/glide-3.5.2_34149e17cd8c9831038d58d897ea0df6920bfabd.jar" />
+    </item>
+    <item
+        jar="/home/jmgarzo/Android/Udacity/MySunshine/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="983e2f375504bc04def18e709c35192afe92e65f">
+        <dex dex="/home/jmgarzo/Android/Udacity/MySunshine/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-22.1.0_1eb3d3a3e0dc1c12527670a58affc968475ec76c.jar" />
+    </item>
+    <item
+        jar="/home/jmgarzo/Android/Udacity/MySunshine/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.0/jars/libs/internal_impl-22.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="025cb89f2896c63200ff4c2e6c467a95691d880a">
+        <dex dex="/home/jmgarzo/Android/Udacity/MySunshine/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.0_32af7f2b9ae66bf40a69dc9b291642b456bef28e.jar" />
+    </item>
+    <item
+        jar="/home/jmgarzo/Android/Udacity/MySunshine/app/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/22.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6a9d0b52494ee984eb9ac4d7caf2ff14c0b6411d">
+        <dex dex="/home/jmgarzo/Android/Udacity/MySunshine/app/build/intermediates/pre-dexed/debug/com.android.support-gridlayout-v7-22.1.0_9ad820fcdb53092872c8513b58210173fe461a1c.jar" />
+    </item>
+
+</items>
